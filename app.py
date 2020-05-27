@@ -101,7 +101,7 @@ def display():
         TableColumn(field="configurations", title="Configurations"),
     ]
 
-    subheader_6 = Div(text="<h4> Results... </h4>")
+    subheader_6 = Div(text="<h4> Results </h4>")
     results_table = DataTable(source=source, columns=columns, width=1200)
     # print(pops)
 
