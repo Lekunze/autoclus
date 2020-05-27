@@ -115,7 +115,7 @@ button.on_click(display)
 
 
 # Set up layouts and add to document
-inputs = column(header_1, file_input, select, subheader_1, gen, pop, subheader_2, radio_group, subheader_3, checkbox_button_group, button)
+inputs = column(header_1, select, subheader_1, gen, pop, subheader_2, radio_group, subheader_3, checkbox_button_group, button)
 
 
 mainLayout = column(row(inputs, width=1200), name='mainLayout')
